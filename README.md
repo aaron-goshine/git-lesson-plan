@@ -19,20 +19,22 @@ https://help.github.com/articles/generating-an-ssh-key/
 
 # Master
 ## Create one repo
-`action: create repo`
+- action: create repo
+  `git init`
 
-`action: everyone to clone to local machine`
+- action: everyone to clone to local machine
+  `git clone [url to repo]`
 
-`action: everyone edit README.md`
+- action: save changes
+  `git clone`
 
 ## What is git status?
-git index
 
-`action: add/remove to index`
+- action: add/remove to index
 
-`action: commit with a good commit messages`
+- action: commit with a good commit messages
 
-`action: push to master, all hell breaks out!`
+- action: push to master, all hell breaks out!
 
 # Branching
 * Why? 
@@ -66,11 +68,13 @@ questions?
 
 
 # Resources:
+* https://try.github.io/levels/1/challenges/1
 * https://www.atlassian.com/git/
 * https://www.atlassian.com/git/tutorials/what-is-git/performance
 * https://www.atlassian.com/git/tutorials/using-branches/
 * https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
 * https://www.git-tower.com/blog/git-cheat-sheet/
+
 
 
 
