@@ -31,10 +31,13 @@ https://help.github.com/articles/generating-an-ssh-key/
 ## What is git status?
 
 - action: add/remove to index
+  `git add [file names]` `git checkout [file names]` `git reset [file names]`
 
 - action: commit with a good commit messages
+  `git commit -m [useful message]` `git commit [use commadline editor to write a commit message]`
 
 - action: push to master, all hell breaks out!
+  `create conflicts with over lapping chasges`
 
 # Branching
 * Why? 
